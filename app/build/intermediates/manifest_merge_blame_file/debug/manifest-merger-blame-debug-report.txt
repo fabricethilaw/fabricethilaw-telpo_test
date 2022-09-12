@@ -1,0 +1,516 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.telpo.tps550.api.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0.16.20210908" >
+6
+7    <uses-sdk
+7-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:8:5-10:38
+8        android:maxSdkVersion="23"
+8-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:10:9-35
+9        android:minSdkVersion="21"
+9-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:9:9-35
+10        android:targetSdkVersion="21" />
+10-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:8:5-10:38
+11
+12    <uses-feature
+12-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:12:5-14:36
+13        android:name="android.hardware.usb.host"
+13-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:13:9-49
+14        android:required="false" />
+14-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:14:9-33
+15    <uses-feature
+15-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:16:5-18:35
+16        android:name="android.hardware.nfc"
+16-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:17:9-44
+17        android:required="false" />
+17-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:18:9-33
+18
+19    <uses-permission android:name="android.permission.NFC" />
+19-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:20:5-61
+19-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:20:22-59
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:22:5-64
+20-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:22:22-62
+21
+22    <uses-feature android:name="android.hardware.camera" />
+22-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:23:5-59
+22-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:23:19-57
+23    <uses-feature
+23-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:24:5-95
+24        android:name="android.hardware.camera.autofocus"
+24-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:24:19-67
+25        android:required="false" />
+25-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:24:68-92
+26
+27    <uses-permission android:name="android.permission.BLUETOOTH" />
+27-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:26:5-67
+27-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:26:22-65
+28    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+28-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:27:5-73
+28-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:27:22-71
+29
+30    <uses-feature
+30-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:28:5-89
+31        android:name="android.hardware.bluetooth_le"
+31-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:28:19-63
+32        android:required="true" />
+32-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:28:64-87
+33
+34    <uses-permission android:name="android.permission.INTERNET" />
+34-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:30:5-67
+34-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:30:22-64
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:31:5-79
+35-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:31:22-76
+36    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+36-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:32:5-79
+36-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:32:22-76
+37    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+37-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:34:5-76
+37-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:34:22-73
+38    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+38-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:35:5-76
+38-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:35:22-73
+39    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+39-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:37:5-82
+39-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:37:22-79
+40    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+40-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:39:2-72
+40-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:39:19-69
+41    <uses-permission android:name="android.permission.VIBRATE" />
+41-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:41:5-66
+41-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:41:22-63
+42    <uses-permission android:name="android.permission.WAKE_LOCK" />
+42-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:42:5-68
+42-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:42:22-65
+43    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+43-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:44:5-81
+43-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:44:22-78
+44    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+44-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:45:5-80
+44-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:45:22-77
+45    <uses-permission android:name="android.permission.READ_LOGS" />
+45-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:47:5-48:47
+45-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:47:22-65
+46
+47    <application
+47-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:50:5-282:19
+48        android:allowBackup="false"
+48-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:51:9-36
+49        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+49-->[com.android.support:support-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+50        android:debuggable="true"
+51        android:icon="@drawable/logo"
+51-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:52:9-38
+52        android:label="@string/app_name"
+52-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:53:9-41
+53        android:testOnly="true"
+54        android:theme="@style/AppTheme" >
+54-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:54:9-40
+55        <activity
+55-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:55:9-64:20
+56            android:name="com.telpo.tps550.api.demo.MainActivity"
+56-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:56:13-66
+57            android:configChanges="orientation|keyboardHidden"
+57-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:57:13-63
+58            android:launchMode="singleTask"
+58-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:59:13-44
+59            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+59-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:58:13-72
+60            <intent-filter>
+60-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:60:13-63:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:61:17-69
+61-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:61:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:62:17-77
+63-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:62:27-74
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:66:9-75:20
+67            android:name="com.telpo.tps550.api.demo.otherdemo.PowerControlDemo"
+67-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:67:13-80
+68            android:configChanges="orientation|keyboardHidden"
+68-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:68:13-63
+69            android:launchMode="singleTask"
+69-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:70:13-44
+70            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+70-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:69:13-72
+71
+72            <!--
+73            <intent-filter>
+74                <action android:name="android.intent.action.MAIN" />
+75                <category android:name="android.intent.category.LAUNCHER" />
+76            </intent-filter>
+77            -->
+78        </activity>
+79        <activity
+79-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:77:9-86:20
+80            android:name="com.telpo.tps550.api.demo.idcard.TwoInOneReaderActivity"
+80-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:78:13-83
+81            android:configChanges="orientation|keyboardHidden"
+81-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:79:13-63
+82            android:launchMode="singleTask"
+82-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:81:13-44
+83            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+83-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:80:13-72
+84
+85            <!--
+86            <intent-filter>
+87                <action android:name="android.intent.action.MAIN" />
+88                <category android:name="android.intent.category.LAUNCHER" />
+89            </intent-filter>
+90            -->
+91        </activity>
+92        <activity
+92-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:88:9-93:20
+93            android:name="com.telpo.tps550.api.demo.ocr.OcrIdCardActivity"
+93-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:89:13-75
+94            android:configChanges="orientation|keyboardHidden"
+94-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:90:13-63
+95            android:launchMode="singleTask"
+95-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:92:13-44
+96            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+96-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:91:13-72
+97        </activity>
+98        <activity
+98-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:94:9-99:20
+99            android:name="com.telpo.tps550.api.demo.megnetic.MegneticActivity"
+99-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:95:13-79
+100            android:configChanges="orientation|keyboardHidden"
+100-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:96:13-63
+101            android:launchMode="singleTask"
+101-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:98:13-44
+102            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+102-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:97:13-72
+103        </activity>
+104        <activity
+104-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:100:9-105:20
+105            android:name="com.telpo.tps550.api.demo.printer.PrinterActivity"
+105-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:101:13-77
+106            android:configChanges="orientation|keyboardHidden"
+106-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:102:13-63
+107            android:launchMode="singleTask"
+107-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:104:13-44
+108            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+108-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:103:13-72
+109        </activity>
+110        <activity
+110-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:106:9-111:20
+111            android:name="com.telpo.tps550.api.demo.printer.PrinterActivitySY581"
+111-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:107:13-82
+112            android:configChanges="orientation|keyboardHidden"
+112-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:108:13-63
+113            android:launchMode="singleTask"
+113-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:110:13-44
+114            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+114-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:109:13-72
+115        </activity>
+116        <activity
+116-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:112:9-117:20
+117            android:name="com.telpo.tps550.api.demo.printer.UsbPrinterActivity"
+117-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:113:13-80
+118            android:configChanges="screenSize|keyboard|keyboardHidden|navigation"
+118-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:114:13-82
+119            android:launchMode="singleTask"
+119-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:116:13-44
+120            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+120-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:115:13-72
+121        </activity>
+122        <activity
+122-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:118:9-123:20
+123            android:name="com.telpo.tps550.api.demo.printer.UsbPrintTest"
+123-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:119:13-74
+124            android:configChanges="orientation|keyboardHidden"
+124-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:120:13-63
+125            android:launchMode="singleTask"
+125-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:122:13-44
+126            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+126-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:121:13-72
+127        </activity>
+128        <!--
+129        <activity
+130            android:name="com.telpo.tps550.api.demo.printer.UsbPrinterActivity_TPS390Test"
+131            android:configChanges="orientation|keyboardHidden"
+132            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+133            android:launchMode="singleTask" >
+134        </activity>
+135        -->
+136        <activity
+136-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:132:9-137:20
+137            android:name="com.telpo.tps550.api.demo.rfid.ConsumeActivity"
+137-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:133:13-74
+138            android:configChanges="orientation|keyboardHidden"
+138-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:134:13-63
+139            android:launchMode="singleTask"
+139-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:136:13-44
+140            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+140-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:135:13-72
+141        </activity>
+142        <!--
+143        <activity
+144            android:name="com.telpo.tps550.api.demo.idcard.IdCardActivity"
+145            android:configChanges="orientation|keyboardHidden"
+146            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+147            android:launchMode="singleTask" >
+148        </activity>
+149        -->
+150        <activity
+150-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:144:9-149:20
+151            android:name="com.telpo.tps550.api.demo.rfid.RfidActivity"
+151-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:145:13-71
+152            android:configChanges="orientation|keyboardHidden"
+152-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:146:13-63
+153            android:launchMode="singleTask"
+153-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:148:13-44
+154            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+154-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:147:13-72
+155        </activity>
+156        <activity
+156-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:150:9-155:20
+157            android:name="com.telpo.tps550.api.demo.moneybox.MoneyBoxActivity"
+157-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:151:13-79
+158            android:configChanges="orientation|keyboardHidden"
+158-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:152:13-63
+159            android:launchMode="singleTask"
+159-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:154:13-44
+160            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+160-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:153:13-72
+161        </activity>
+162        <activity
+162-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:156:9-161:20
+163            android:name="com.telpo.tps550.api.demo.rfid.UltralightActivity"
+163-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:157:13-77
+164            android:configChanges="orientation|keyboardHidden"
+164-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:158:13-63
+165            android:launchMode="singleTask"
+165-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:160:13-44
+166            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+166-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:159:13-72
+167        </activity>
+168        <activity
+168-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:162:9-167:20
+169            android:name="com.telpo.tps550.api.demo.iccard.IccActivityNew"
+169-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:163:13-75
+170            android:configChanges="orientation|keyboardHidden"
+170-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:164:13-63
+171            android:launchMode="singleTask"
+171-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:166:13-44
+172            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+172-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:165:13-72
+173        </activity>
+174        <activity
+174-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:168:9-173:20
+175            android:name="com.telpo.tps550.api.demo.iccard.SLE4428Activity"
+175-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:169:13-76
+176            android:configChanges="orientation|keyboardHidden"
+176-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:170:13-63
+177            android:launchMode="singleTask"
+177-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:172:13-44
+178            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+178-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:171:13-72
+179        </activity>
+180        <activity
+180-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:174:9-179:20
+181            android:name="com.telpo.tps550.api.demo.iccard.SLE4442Activity"
+181-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:175:13-76
+182            android:configChanges="orientation|keyboardHidden"
+182-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:176:13-63
+183            android:launchMode="singleTask"
+183-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:178:13-44
+184            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+184-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:177:13-72
+185        </activity>
+186        <activity
+186-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:180:9-185:20
+187            android:name="com.telpo.tps550.api.demo.iccard.SmarCardNewActivity"
+187-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:181:13-80
+188            android:configChanges="orientation|keyboardHidden"
+188-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:182:13-63
+189            android:launchMode="singleTask"
+189-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:184:13-44
+190            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+190-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:183:13-72
+191        </activity>
+192        <activity
+192-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:186:9-191:20
+193            android:name="com.telpo.tps550.api.demo.iccard.USBTypeACardActivity"
+193-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:187:13-81
+194            android:configChanges="orientation|keyboardHidden"
+194-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:188:13-63
+195            android:launchMode="singleTask"
+195-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:190:13-44
+196            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+196-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:189:13-72
+197        </activity>
+198        <activity
+198-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:192:9-197:20
+199            android:name="com.telpo.tps550.api.demo.iccard.SerialPortActivity"
+199-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:193:13-79
+200            android:configChanges="orientation|keyboardHidden"
+200-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:194:13-63
+201            android:launchMode="singleTask"
+201-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:196:13-44
+202            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+202-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:195:13-72
+203        </activity>
+204        <activity
+204-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:198:9-203:20
+205            android:name="com.telpo.tps550.api.demo.iccard.SerialTACardActivity"
+205-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:199:13-81
+206            android:configChanges="orientation|keyboardHidden"
+206-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:200:13-63
+207            android:launchMode="singleTask"
+207-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:202:13-44
+208            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+208-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:201:13-72
+209        </activity>
+210        <activity
+210-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:204:9-209:20
+211            android:name="com.telpo.tps550.api.demo.iccard.PsamActivity"
+211-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:205:13-73
+212            android:configChanges="orientation|keyboardHidden"
+212-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:206:13-63
+213            android:launchMode="singleTask"
+213-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:208:13-44
+214            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+214-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:207:13-72
+215        </activity>
+216        <activity
+216-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:210:9-215:20
+217            android:name="com.telpo.tps550.api.demo.ir.IrActivity"
+217-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:211:13-67
+218            android:configChanges="orientation|keyboardHidden"
+218-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:212:13-63
+219            android:launchMode="singleTask"
+219-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:214:13-44
+220            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+220-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:213:13-72
+221        </activity>
+222        <activity
+222-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:216:9-221:20
+223            android:name="com.telpo.tps550.api.demo.led.LedActivity"
+223-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:217:13-69
+224            android:configChanges="orientation|keyboardHidden"
+224-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:218:13-63
+225            android:launchMode="singleTask"
+225-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:220:13-44
+226            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+226-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:219:13-72
+227        </activity>
+228        <activity
+228-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:222:9-227:20
+229            android:name="com.telpo.tps550.api.demo.iccard.MonitorActivity"
+229-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:223:13-76
+230            android:configChanges="orientation|keyboardHidden"
+230-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:224:13-63
+231            android:launchMode="singleTask"
+231-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:226:13-44
+232            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+232-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:225:13-72
+233        </activity>
+234        <activity
+234-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:228:9-233:20
+235            android:name="com.telpo.tps550.api.demo.iccard.AT88SC153Activity"
+235-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:229:13-78
+236            android:configChanges="orientation|keyboardHidden"
+236-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:230:13-63
+237            android:launchMode="singleTask"
+237-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:232:13-44
+238            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+238-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:231:13-72
+239        </activity>
+240        <activity
+240-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:234:9-239:20
+241            android:name="com.telpo.tps550.api.demo.iccard.SelectActivity"
+241-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:235:13-75
+242            android:configChanges="orientation|keyboardHidden"
+242-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:236:13-63
+243            android:launchMode="singleTask"
+243-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:238:13-44
+244            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+244-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:237:13-72
+245        </activity>
+246        <activity
+246-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:240:9-245:20
+247            android:name="com.telpo.tps550.api.demo.decode.DecodeActivity"
+247-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:241:13-75
+248            android:configChanges="orientation|keyboardHidden"
+248-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:242:13-63
+249            android:launchMode="singleTask"
+249-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:244:13-44
+250            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+250-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:243:13-72
+251        </activity>
+252        <activity
+252-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:246:9-251:20
+253            android:name="com.telpo.tps550.api.demo.nfc.NfcActivity"
+253-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:247:13-69
+254            android:configChanges="orientation|keyboardHidden"
+254-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:248:13-63
+255            android:launchMode="singleTask"
+255-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:250:13-44
+256            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+256-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:249:13-72
+257        </activity>
+258        <activity
+258-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:252:9-257:20
+259            android:name="com.telpo.tps550.api.demo.rfid.CpuCardActivity"
+259-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:253:13-74
+260            android:configChanges="orientation|keyboardHidden"
+260-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:254:13-63
+261            android:launchMode="singleTask"
+261-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:256:13-44
+262            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+262-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:255:13-72
+263        </activity>
+264        <activity
+264-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:258:10-263:20
+265            android:name="com.telpo.tps550.api.demo.nfc.NfcActivity_tps900"
+265-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:259:13-76
+266            android:configChanges="orientation|keyboardHidden"
+266-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:260:13-63
+267            android:launchMode="singleTask"
+267-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:262:13-44
+268            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+268-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:261:13-72
+269        </activity>
+270        <activity
+270-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:264:9-269:20
+271            android:name="com.telpo.tps550.api.demo.nfc.NfcActivity_tps537"
+271-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:265:13-76
+272            android:configChanges="orientation|keyboardHidden"
+272-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:266:13-63
+273            android:launchMode="singleTask"
+273-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:268:13-44
+274            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+274-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:267:13-72
+275        </activity>
+276        <activity
+276-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:270:9-275:20
+277            android:name="com.telpo.tps550.api.demo.idcard.BluetoothIdCardActivity"
+277-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:271:13-84
+278            android:configChanges="orientation|keyboardHidden"
+278-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:272:13-63
+279            android:launchMode="singleTask"
+279-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:274:13-44
+280            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+280-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:273:13-72
+281        </activity>
+282        <activity
+282-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:276:9-281:20
+283            android:name="com.telpo.tps550.api.demo.hardreader.HardReaderActivity"
+283-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:277:13-83
+284            android:configChanges="orientation|keyboardHidden"
+284-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:278:13-63
+285            android:launchMode="singleTask"
+285-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:280:13-44
+286            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+286-->/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:279:13-72
+287        </activity>
+288    </application>
+289
+290</manifest>

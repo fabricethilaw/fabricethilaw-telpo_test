@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <Button
+	        android:id="@+id/circleReadID"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="读取身份证(全部)"
+	        android:onClick="circleReadID"
+	        android:visibility="gone"/>
+	    
+	    <Button
+	        android:id="@+id/circleReadIDnoFinger"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="读取身份证(不读指纹)"
+	        android:onClick="circleReadIDnoFinger"
+	        android:visibility="gone"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    >
+		    
+	        <TableLayout
+	            android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+	            <TableRow>
+	                <Button
+				        android:id="@+id/openReaderUSB"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:text="打开USB读卡器"
+				        android:onClick="openReaderUSB"/>
+			    
+				    <Button
+				        android:id="@+id/openReaderSerial"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:text="打开串口读卡器"
+				        android:onClick="openReaderSerial"/>
+				    
+				    <Button
+				        android:id="@+id/closeReader"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:text="关闭读卡器"
+				        android:onClick="closeReader"/>
+	            </TableRow>
+	        </TableLayout>
+		    
+		    <Button
+		        android:id="@+id/checkSN"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="获取模块SN"
+		        android:visibility="gone"
+		        android:onClick="checkSN"/>
+		    
+		    <Button
+		        android:id="@+id/checkPhyDDR"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="获取物理地址"
+		        android:visibility="gone"
+		        android:onClick="checkPhyDDR"/>
+		    
+			<TableLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="gone">
+		        <TableRow>
+		            <Button
+				       android:layout_width="0dp"
+		               android:layout_height="wrap_content"
+		               android:layout_weight="1"
+				       android:text="find ID"
+				       android:onClick="find"/>
+					
+					<Button
+				       android:layout_width="0dp"
+		               android:layout_height="wrap_content"
+		               android:layout_weight="1"
+				       android:text="select ID"
+				       android:onClick="select"/>
+					
+					<Button
+				       android:layout_width="0dp"
+		               android:layout_height="wrap_content"
+		               android:layout_weight="1"
+				       android:text="read ID"
+				       android:onClick="read"/>
+		        </TableRow>
+		    </TableLayout>
+			
+			<Button
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="读取身份证"
+		       android:onClick="check"/>
+			
+			<Button
+			   android:visibility="gone"
+			   android:id="@+id/checkWhile"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="读取身份证(循环读取)"
+		       android:onClick="checkWhile"/>
+			
+			<Button
+			   android:visibility="gone"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="读取身份证0x32"
+		       android:onClick="check32"/>
+			
+			<Button
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="获取指纹信息"
+		       android:onClick="getIDFinger"
+		       android:visibility="gone"/>
+			
+			<Button
+			   android:visibility="gone" 
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="读typeA卡号"
+		       android:onClick="typeAUID"/>
+			
+			<Button
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="APDU"
+		       android:onClick="sendAPDU"
+		       android:visibility="gone"/>
+			
+			<TableLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="gone">
+		        <TableRow>
+		            <EditText
+		                android:id="@+id/blocknum"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:text="01"/>
+		            <EditText
+		                android:id="@+id/password"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:text="FFFFFFFFFFFF"/>
+		            <Button
+				       android:layout_width="0dp"
+		               android:layout_height="wrap_content"
+		               android:layout_weight="1"
+				       android:text="verify typeA"
+				       android:onClick="verifyTypeA"/>
+		            <Button
+				       android:layout_width="0dp"
+		               android:layout_height="wrap_content"
+		               android:layout_weight="1"
+				       android:text="verify typeB"
+				       android:onClick="verifyTypeB"/>
+		        </TableRow>
+		    </TableLayout>
+			
+			<Button
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="read typeA"
+		       android:onClick="readTypeA"
+		       android:visibility="gone"/>
+			
+			<TableLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="gone">
+		        <TableRow>
+		            <EditText
+		                android:id="@+id/newdata"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:text="111111111111"/>
+		            <Button
+				        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+				        android:text="write typea"
+				        android:onClick="writeTypeA"/>
+		        </TableRow>
+		    </TableLayout>
+		    
+			<Button
+			    android:visibility="gone"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="获取固件版本"
+			    android:onClick="checkVersion"/>
+			
+			<Button
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="升级模块"
+			    android:onClick="update"
+			    android:visibility="gone"/>
+			
+			<Button 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="随机读取"
+			    android:visibility="gone"
+			    android:onClick="ramRead"/>
+	        
+	    </LinearLayout>
+	    
+		<TextView 
+		    android:id="@+id/showResult"
+		    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="24sp"/>
+		
+		<ImageView
+		    android:id="@+id/headImg"
+		    android:layout_width="80dp"
+		    android:layout_height="80dp"/>
+	
+	</LinearLayout>
+</ScrollView>

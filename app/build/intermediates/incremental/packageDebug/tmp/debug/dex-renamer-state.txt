@@ -1,0 +1,7 @@
+#Mon Sep 12 09:37:10 WAT 2022
+base.0=/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex

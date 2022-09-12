@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "map": [
+                {
+                    "source": "/Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

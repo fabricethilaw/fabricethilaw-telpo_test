@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.telpo.tps550.api.demo",
+  "variantName": "processDebugResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 1,
+      "versionName": "1.0.16.20210908",
+      "outputFile": "app-debug.apk"
+    }
+  ]
+}

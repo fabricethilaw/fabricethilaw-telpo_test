@@ -1,0 +1,167 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+E:\Android Studio Project\work\TELPO_SDK_DEMO_T
+          -      -                             
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* lib\
+* lib\classes.jar
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:29.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\arm64-v8a\libAlUSB.so => app\src\main\jniLibs\arm64-v8a\libAlUSB.so
+* libs\arm64-v8a\libcard_reader.so => app\src\main\jniLibs\arm64-v8a\libcard_reader.so
+* libs\arm64-v8a\libcard_reader2.so => app\src\main\jniLibs\arm64-v8a\libcard_reader2.so
+* libs\arm64-v8a\libcollect.so => app\src\main\jniLibs\arm64-v8a\libcollect.so
+* libs\arm64-v8a\libdecode.so => app\src\main\jniLibs\arm64-v8a\libdecode.so
+* libs\arm64-v8a\libfingerprint.so => app\src\main\jniLibs\arm64-v8a\libfingerprint.so
+* libs\arm64-v8a\libhardreader.so => app\src\main\jniLibs\arm64-v8a\libhardreader.so
+* libs\arm64-v8a\libidcard.so => app\src\main\jniLibs\arm64-v8a\libidcard.so
+* libs\arm64-v8a\libidcard900.so => app\src\main\jniLibs\arm64-v8a\libidcard900.so
+* libs\arm64-v8a\libIDFpr.so => app\src\main\jniLibs\arm64-v8a\libIDFpr.so
+* libs\arm64-v8a\libIDFpr2.so => app\src\main\jniLibs\arm64-v8a\libIDFpr2.so
+* libs\arm64-v8a\libidfprcap.so => app\src\main\jniLibs\arm64-v8a\libidfprcap.so
+* libs\arm64-v8a\libled.so => app\src\main\jniLibs\arm64-v8a\libled.so
+* libs\arm64-v8a\libledpower.so => app\src\main\jniLibs\arm64-v8a\libledpower.so
+* libs\arm64-v8a\libmoneybox.so => app\src\main\jniLibs\arm64-v8a\libmoneybox.so
+* libs\arm64-v8a\liboldidimage.so => app\src\main\jniLibs\arm64-v8a\liboldidimage.so
+* libs\arm64-v8a\libpicc.so => app\src\main\jniLibs\arm64-v8a\libpicc.so
+* libs\arm64-v8a\libposutil.so => app\src\main\jniLibs\arm64-v8a\libposutil.so
+* libs\arm64-v8a\libqrpower.so => app\src\main\jniLibs\arm64-v8a\libqrpower.so
+* libs\arm64-v8a\librelay_control.so => app\src\main\jniLibs\arm64-v8a\librelay_control.so
+* libs\arm64-v8a\libserial_port.so => app\src\main\jniLibs\arm64-v8a\libserial_port.so
+* libs\arm64-v8a\libsystem_util.so => app\src\main\jniLibs\arm64-v8a\libsystem_util.so
+* libs\arm64-v8a\libtb_wlt2bmp.so => app\src\main\jniLibs\arm64-v8a\libtb_wlt2bmp.so
+* libs\arm64-v8a\libtelpo_msr.so => app\src\main\jniLibs\arm64-v8a\libtelpo_msr.so
+* libs\arm64-v8a\libtelpo_nfc.so => app\src\main\jniLibs\arm64-v8a\libtelpo_nfc.so
+* libs\arm64-v8a\libtelpo_printer.so => app\src\main\jniLibs\arm64-v8a\libtelpo_printer.so
+* libs\arm64-v8a\libtelpo_printer5880.so => app\src\main\jniLibs\arm64-v8a\libtelpo_printer5880.so
+* libs\arm64-v8a\libtelpo_printer_48.so => app\src\main\jniLibs\arm64-v8a\libtelpo_printer_48.so
+* libs\arm64-v8a\libtelpo_printer_581.so => app\src\main\jniLibs\arm64-v8a\libtelpo_printer_581.so
+* libs\arm64-v8a\libtelpo_serial.so => app\src\main\jniLibs\arm64-v8a\libtelpo_serial.so
+* libs\arm64-v8a\libusb_util.so => app\src\main\jniLibs\arm64-v8a\libusb_util.so
+* libs\arm64-v8a\libusbtest.so => app\src\main\jniLibs\arm64-v8a\libusbtest.so
+* libs\arm64-v8a\libzksensorcore.so => app\src\main\jniLibs\arm64-v8a\libzksensorcore.so
+* libs\arm64-v8a\libzkwltdecode.so => app\src\main\jniLibs\arm64-v8a\libzkwltdecode.so
+* libs\armeabi-v7a\libAlUSB.so => app\src\main\jniLibs\armeabi-v7a\libAlUSB.so
+* libs\armeabi-v7a\libcard_reader.so => app\src\main\jniLibs\armeabi-v7a\libcard_reader.so
+* libs\armeabi-v7a\libcard_reader2.so => app\src\main\jniLibs\armeabi-v7a\libcard_reader2.so
+* libs\armeabi-v7a\libcollect.so => app\src\main\jniLibs\armeabi-v7a\libcollect.so
+* libs\armeabi-v7a\libdecode.so => app\src\main\jniLibs\armeabi-v7a\libdecode.so
+* libs\armeabi-v7a\libfingerprint.so => app\src\main\jniLibs\armeabi-v7a\libfingerprint.so
+* libs\armeabi-v7a\libhardreader.so => app\src\main\jniLibs\armeabi-v7a\libhardreader.so
+* libs\armeabi-v7a\libidcard.so => app\src\main\jniLibs\armeabi-v7a\libidcard.so
+* libs\armeabi-v7a\libidcard900.so => app\src\main\jniLibs\armeabi-v7a\libidcard900.so
+* libs\armeabi-v7a\libIDFpr.so => app\src\main\jniLibs\armeabi-v7a\libIDFpr.so
+* libs\armeabi-v7a\libIDFpr2.so => app\src\main\jniLibs\armeabi-v7a\libIDFpr2.so
+* libs\armeabi-v7a\libidfprcap.so => app\src\main\jniLibs\armeabi-v7a\libidfprcap.so
+* libs\armeabi-v7a\libled.so => app\src\main\jniLibs\armeabi-v7a\libled.so
+* libs\armeabi-v7a\libledpower.so => app\src\main\jniLibs\armeabi-v7a\libledpower.so
+* libs\armeabi-v7a\libmoneybox.so => app\src\main\jniLibs\armeabi-v7a\libmoneybox.so
+* libs\armeabi-v7a\liboldidimage.so => app\src\main\jniLibs\armeabi-v7a\liboldidimage.so
+* libs\armeabi-v7a\libpicc.so => app\src\main\jniLibs\armeabi-v7a\libpicc.so
+* libs\armeabi-v7a\libposutil.so => app\src\main\jniLibs\armeabi-v7a\libposutil.so
+* libs\armeabi-v7a\libqrpower.so => app\src\main\jniLibs\armeabi-v7a\libqrpower.so
+* libs\armeabi-v7a\librelay_control.so => app\src\main\jniLibs\armeabi-v7a\librelay_control.so
+* libs\armeabi-v7a\libserial_port.so => app\src\main\jniLibs\armeabi-v7a\libserial_port.so
+* libs\armeabi-v7a\libsystem_util.so => app\src\main\jniLibs\armeabi-v7a\libsystem_util.so
+* libs\armeabi-v7a\libtb_wlt2bmp.so => app\src\main\jniLibs\armeabi-v7a\libtb_wlt2bmp.so
+* libs\armeabi-v7a\libtelpo_msr.so => app\src\main\jniLibs\armeabi-v7a\libtelpo_msr.so
+* libs\armeabi-v7a\libtelpo_nfc.so => app\src\main\jniLibs\armeabi-v7a\libtelpo_nfc.so
+* libs\armeabi-v7a\libtelpo_printer.so => app\src\main\jniLibs\armeabi-v7a\libtelpo_printer.so
+* libs\armeabi-v7a\libtelpo_printer5880.so => app\src\main\jniLibs\armeabi-v7a\libtelpo_printer5880.so
+* libs\armeabi-v7a\libtelpo_printer_48.so => app\src\main\jniLibs\armeabi-v7a\libtelpo_printer_48.so
+* libs\armeabi-v7a\libtelpo_printer_581.so => app\src\main\jniLibs\armeabi-v7a\libtelpo_printer_581.so
+* libs\armeabi-v7a\libtelpo_serial.so => app\src\main\jniLibs\armeabi-v7a\libtelpo_serial.so
+* libs\armeabi-v7a\libusb_util.so => app\src\main\jniLibs\armeabi-v7a\libusb_util.so
+* libs\armeabi-v7a\libusbtest.so => app\src\main\jniLibs\armeabi-v7a\libusbtest.so
+* libs\armeabi-v7a\libzksensorcore.so => app\src\main\jniLibs\armeabi-v7a\libzksensorcore.so
+* libs\armeabi-v7a\libzkwltdecode.so => app\src\main\jniLibs\armeabi-v7a\libzkwltdecode.so
+* libs\armeabi\libAlUSB.so => app\src\main\jniLibs\armeabi\libAlUSB.so
+* libs\armeabi\libcard_reader.so => app\src\main\jniLibs\armeabi\libcard_reader.so
+* libs\armeabi\libcard_reader2.so => app\src\main\jniLibs\armeabi\libcard_reader2.so
+* libs\armeabi\libcollect.so => app\src\main\jniLibs\armeabi\libcollect.so
+* libs\armeabi\libdecode.so => app\src\main\jniLibs\armeabi\libdecode.so
+* libs\armeabi\libfingerprint.so => app\src\main\jniLibs\armeabi\libfingerprint.so
+* libs\armeabi\libhardreader.so => app\src\main\jniLibs\armeabi\libhardreader.so
+* libs\armeabi\libidcard.so => app\src\main\jniLibs\armeabi\libidcard.so
+* libs\armeabi\libidcard900.so => app\src\main\jniLibs\armeabi\libidcard900.so
+* libs\armeabi\libIDFpr.so => app\src\main\jniLibs\armeabi\libIDFpr.so
+* libs\armeabi\libIDFpr2.so => app\src\main\jniLibs\armeabi\libIDFpr2.so
+* libs\armeabi\libidfprcap.so => app\src\main\jniLibs\armeabi\libidfprcap.so
+* libs\armeabi\libled.so => app\src\main\jniLibs\armeabi\libled.so
+* libs\armeabi\libledpower.so => app\src\main\jniLibs\armeabi\libledpower.so
+* libs\armeabi\libmoneybox.so => app\src\main\jniLibs\armeabi\libmoneybox.so
+* libs\armeabi\liboldidimage.so => app\src\main\jniLibs\armeabi\liboldidimage.so
+* libs\armeabi\libpicc.so => app\src\main\jniLibs\armeabi\libpicc.so
+* libs\armeabi\libposutil.so => app\src\main\jniLibs\armeabi\libposutil.so
+* libs\armeabi\libqrpower.so => app\src\main\jniLibs\armeabi\libqrpower.so
+* libs\armeabi\librelay_control.so => app\src\main\jniLibs\armeabi\librelay_control.so
+* libs\armeabi\libserial_port.so => app\src\main\jniLibs\armeabi\libserial_port.so
+* libs\armeabi\libsystem_util.so => app\src\main\jniLibs\armeabi\libsystem_util.so
+* libs\armeabi\libtb_wlt2bmp.so => app\src\main\jniLibs\armeabi\libtb_wlt2bmp.so
+* libs\armeabi\libtelpo_msr.so => app\src\main\jniLibs\armeabi\libtelpo_msr.so
+* libs\armeabi\libtelpo_nfc.so => app\src\main\jniLibs\armeabi\libtelpo_nfc.so
+* libs\armeabi\libtelpo_printer.so => app\src\main\jniLibs\armeabi\libtelpo_printer.so
+* libs\armeabi\libtelpo_printer5880.so => app\src\main\jniLibs\armeabi\libtelpo_printer5880.so
+* libs\armeabi\libtelpo_printer_48.so => app\src\main\jniLibs\armeabi\libtelpo_printer_48.so
+* libs\armeabi\libtelpo_printer_581.so => app\src\main\jniLibs\armeabi\libtelpo_printer_581.so
+* libs\armeabi\libtelpo_serial.so => app\src\main\jniLibs\armeabi\libtelpo_serial.so
+* libs\armeabi\libusb_util.so => app\src\main\jniLibs\armeabi\libusb_util.so
+* libs\armeabi\libusbtest.so => app\src\main\jniLibs\armeabi\libusbtest.so
+* libs\armeabi\libzksensorcore.so => app\src\main\jniLibs\armeabi\libzksensorcore.so
+* libs\armeabi\libzkwltdecode.so => app\src\main\jniLibs\armeabi\libzkwltdecode.so
+* libs\core-3.1.0.jar => app\libs\core-3.1.0.jar
+* libs\SmartCardLib.jar => app\libs\SmartCardLib.jar
+* libs\telpo_sdk_210908_v1.jar => app\libs\telpo_sdk_210908_v1.jar
+* libs\zkandroidcore.jar => app\libs\zkandroidcore.jar
+* libs\zkandroidnidfpsensor.jar => app\libs\zkandroidnidfpsensor.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* p001.JPG => p001.jpg
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,566 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:2:1-284:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/42e8282a5a3fd7c3b3f0d0595e2df3f6/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/0c987097f99e7a4335b18a4229188bcc/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/fbfb7c7ced2dd9c7976f805e2a51d90e/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/1260008e6b28c2d2089d15c02c885941/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/1c9e2903f02dff600f06d93b0d1d0c3b/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/21c40582aa19c20b92b08fe79584521e/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/a379726d39f0dc24f62f13da9754b22f/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/388fbd0dd723fcbc08c00c369be1c170/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/67b3ec6dc33e00778c2a5461e9ac08b6/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/aa8882fca5c0a2880eddbe0f90163556/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/9651d67507cfb958ec72395ba5625a82/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/de622a0736ef79d65f2760cc3a6f7232/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/d798b9982e20884298922b2b3b526ba3/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/4b0e883c691dfe3b51c757996ffc5b59/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/94a5dbd40f5e2ad6d8071e40ea8f6314/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/de92dc3a730267fc4a06812d10ec8388/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/b644760f8ab7d532f1c483eacd5a47ce/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/126bbbba515a76748e0c79034fc43c1c/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/52cee454e676dfe4361911031fbc7914/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/84a329d82ffc666455212e01b2932f47/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/a63ed492c7ce6edbf098a6fb9d5bed14/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/a17707910761fd10ce136764f87fecf1/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/522916342d38202e723564fa2ae9c270/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:2:1-284:12
+	package
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:4:5-40
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:6:5-42
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:8:5-10:38
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:8:5-10:38
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:8:5-10:38
+MERGED from [com.android.support:support-v4:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/42e8282a5a3fd7c3b3f0d0595e2df3f6/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/42e8282a5a3fd7c3b3f0d0595e2df3f6/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/0c987097f99e7a4335b18a4229188bcc/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/0c987097f99e7a4335b18a4229188bcc/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/fbfb7c7ced2dd9c7976f805e2a51d90e/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/fbfb7c7ced2dd9c7976f805e2a51d90e/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/1260008e6b28c2d2089d15c02c885941/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/1260008e6b28c2d2089d15c02c885941/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/1c9e2903f02dff600f06d93b0d1d0c3b/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/1c9e2903f02dff600f06d93b0d1d0c3b/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/21c40582aa19c20b92b08fe79584521e/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/21c40582aa19c20b92b08fe79584521e/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/a379726d39f0dc24f62f13da9754b22f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/a379726d39f0dc24f62f13da9754b22f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/388fbd0dd723fcbc08c00c369be1c170/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/388fbd0dd723fcbc08c00c369be1c170/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/67b3ec6dc33e00778c2a5461e9ac08b6/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/67b3ec6dc33e00778c2a5461e9ac08b6/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/aa8882fca5c0a2880eddbe0f90163556/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/aa8882fca5c0a2880eddbe0f90163556/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/9651d67507cfb958ec72395ba5625a82/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/9651d67507cfb958ec72395ba5625a82/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/de622a0736ef79d65f2760cc3a6f7232/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/de622a0736ef79d65f2760cc3a6f7232/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/d798b9982e20884298922b2b3b526ba3/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/d798b9982e20884298922b2b3b526ba3/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/4b0e883c691dfe3b51c757996ffc5b59/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/4b0e883c691dfe3b51c757996ffc5b59/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/94a5dbd40f5e2ad6d8071e40ea8f6314/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/94a5dbd40f5e2ad6d8071e40ea8f6314/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/de92dc3a730267fc4a06812d10ec8388/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/de92dc3a730267fc4a06812d10ec8388/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/b644760f8ab7d532f1c483eacd5a47ce/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/b644760f8ab7d532f1c483eacd5a47ce/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/126bbbba515a76748e0c79034fc43c1c/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/126bbbba515a76748e0c79034fc43c1c/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/52cee454e676dfe4361911031fbc7914/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/52cee454e676dfe4361911031fbc7914/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/84a329d82ffc666455212e01b2932f47/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/84a329d82ffc666455212e01b2932f47/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/a63ed492c7ce6edbf098a6fb9d5bed14/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/a63ed492c7ce6edbf098a6fb9d5bed14/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/a17707910761fd10ce136764f87fecf1/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/a17707910761fd10ce136764f87fecf1/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/522916342d38202e723564fa2ae9c270/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/522916342d38202e723564fa2ae9c270/runtime-1.1.1/AndroidManifest.xml:20:5-44
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:8:5-10:38
+INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:8:5-10:38
+	android:maxSdkVersion
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:10:9-35
+	android:targetSdkVersion
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:8:5-10:38
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:13:9-49
+uses-feature#android.hardware.nfc
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:16:5-18:35
+	android:required
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:17:9-44
+uses-permission#android.permission.NFC
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:20:5-61
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:20:22-59
+uses-permission#android.permission.CAMERA
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:22:5-64
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:23:5-59
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:23:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:24:5-95
+	android:required
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:24:68-92
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:24:19-67
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:26:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:27:5-73
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:27:22-71
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:28:5-89
+	android:required
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:28:64-87
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:28:19-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:30:5-67
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:30:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:31:5-79
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:31:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:32:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:34:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:35:5-76
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:35:22-73
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:37:5-82
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:37:22-79
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:39:2-72
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:39:19-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:41:5-66
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:41:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:42:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:44:5-81
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:44:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:45:5-80
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:45:22-77
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:47:5-48:47
+	tools:ignore
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:48:9-44
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:47:22-65
+application
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:50:5-282:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/thilawfabrice/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:53:9-41
+	android:icon
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:52:9-38
+	android:allowBackup
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:51:9-36
+	android:theme
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:54:9-40
+activity#com.telpo.tps550.api.demo.MainActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:55:9-64:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:59:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:58:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:57:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:56:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:60:13-63:29
+action#android.intent.action.MAIN
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:62:27-74
+activity#com.telpo.tps550.api.demo.otherdemo.PowerControlDemo
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:66:9-75:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:70:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:69:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:68:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:67:13-80
+activity#com.telpo.tps550.api.demo.idcard.TwoInOneReaderActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:77:9-86:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:81:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:80:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:79:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:78:13-83
+activity#com.telpo.tps550.api.demo.ocr.OcrIdCardActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:88:9-93:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:92:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:91:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:90:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:89:13-75
+activity#com.telpo.tps550.api.demo.megnetic.MegneticActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:94:9-99:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:98:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:97:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:96:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:95:13-79
+activity#com.telpo.tps550.api.demo.printer.PrinterActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:100:9-105:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:104:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:103:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:102:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:101:13-77
+activity#com.telpo.tps550.api.demo.printer.PrinterActivitySY581
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:106:9-111:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:110:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:109:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:108:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:107:13-82
+activity#com.telpo.tps550.api.demo.printer.UsbPrinterActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:112:9-117:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:116:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:115:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:114:13-82
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:113:13-80
+activity#com.telpo.tps550.api.demo.printer.UsbPrintTest
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:118:9-123:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:122:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:121:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:120:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:119:13-74
+activity#com.telpo.tps550.api.demo.rfid.ConsumeActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:132:9-137:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:136:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:135:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:134:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:133:13-74
+activity#com.telpo.tps550.api.demo.rfid.RfidActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:144:9-149:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:148:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:147:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:146:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:145:13-71
+activity#com.telpo.tps550.api.demo.moneybox.MoneyBoxActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:150:9-155:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:154:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:153:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:152:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:151:13-79
+activity#com.telpo.tps550.api.demo.rfid.UltralightActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:156:9-161:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:160:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:159:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:158:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:157:13-77
+activity#com.telpo.tps550.api.demo.iccard.IccActivityNew
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:162:9-167:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:166:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:165:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:164:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:163:13-75
+activity#com.telpo.tps550.api.demo.iccard.SLE4428Activity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:168:9-173:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:172:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:171:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:170:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:169:13-76
+activity#com.telpo.tps550.api.demo.iccard.SLE4442Activity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:174:9-179:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:178:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:177:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:176:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:175:13-76
+activity#com.telpo.tps550.api.demo.iccard.SmarCardNewActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:180:9-185:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:184:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:183:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:182:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:181:13-80
+activity#com.telpo.tps550.api.demo.iccard.USBTypeACardActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:186:9-191:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:190:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:189:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:188:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:187:13-81
+activity#com.telpo.tps550.api.demo.iccard.SerialPortActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:192:9-197:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:196:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:195:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:194:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:193:13-79
+activity#com.telpo.tps550.api.demo.iccard.SerialTACardActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:198:9-203:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:202:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:201:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:200:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:199:13-81
+activity#com.telpo.tps550.api.demo.iccard.PsamActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:204:9-209:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:208:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:207:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:206:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:205:13-73
+activity#com.telpo.tps550.api.demo.ir.IrActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:210:9-215:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:214:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:213:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:212:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:211:13-67
+activity#com.telpo.tps550.api.demo.led.LedActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:216:9-221:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:220:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:219:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:218:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:217:13-69
+activity#com.telpo.tps550.api.demo.iccard.MonitorActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:222:9-227:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:226:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:225:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:224:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:223:13-76
+activity#com.telpo.tps550.api.demo.iccard.AT88SC153Activity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:228:9-233:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:232:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:231:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:230:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:229:13-78
+activity#com.telpo.tps550.api.demo.iccard.SelectActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:234:9-239:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:238:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:237:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:236:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:235:13-75
+activity#com.telpo.tps550.api.demo.decode.DecodeActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:240:9-245:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:244:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:243:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:242:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:241:13-75
+activity#com.telpo.tps550.api.demo.nfc.NfcActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:246:9-251:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:250:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:249:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:248:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:247:13-69
+activity#com.telpo.tps550.api.demo.rfid.CpuCardActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:252:9-257:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:256:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:255:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:254:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:253:13-74
+activity#com.telpo.tps550.api.demo.nfc.NfcActivity_tps900
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:258:10-263:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:262:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:261:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:260:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:259:13-76
+activity#com.telpo.tps550.api.demo.nfc.NfcActivity_tps537
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:264:9-269:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:268:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:267:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:266:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:265:13-76
+activity#com.telpo.tps550.api.demo.idcard.BluetoothIdCardActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:270:9-275:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:274:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:273:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:272:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:271:13-84
+activity#com.telpo.tps550.api.demo.hardreader.HardReaderActivity
+ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:276:9-281:20
+	android:launchMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:280:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:279:13-72
+	android:configChanges
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:278:13-63
+	android:name
+		ADDED from /Users/thilawfabrice/Projets/Upwork/JOBS/telpo_update/TELPO_SDK_DEMO_T 2/app/src/main/AndroidManifest.xml:277:13-83

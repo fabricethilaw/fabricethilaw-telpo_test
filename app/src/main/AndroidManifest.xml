@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.telpo.tps550.api.demo"
+    android:versionCode="1"
+    android:versionName="1.0.16.20210908">
+
+    <uses-sdk 
+        android:minSdkVersion="21"
+        android:maxSdkVersion="23" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+    
+    <uses-feature 
+        android:name="android.hardware.nfc"
+        android:required="false"/>
+    
+    <uses-permission android:name="android.permission.NFC"/>
+    
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+    <uses-permission android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.telpo.tps550.api.demo.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.telpo.tps550.api.demo.otherdemo.PowerControlDemo"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        
+        <activity
+            android:name="com.telpo.tps550.api.demo.idcard.TwoInOneReaderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        
+        <activity
+            android:name="com.telpo.tps550.api.demo.ocr.OcrIdCardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.megnetic.MegneticActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.printer.PrinterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.printer.PrinterActivitySY581"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.printer.UsbPrinterActivity"
+            android:configChanges="screenSize|keyboard|keyboardHidden|navigation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.printer.UsbPrintTest"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+<!--
+        <activity
+            android:name="com.telpo.tps550.api.demo.printer.UsbPrinterActivity_TPS390Test"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+-->
+        <activity
+            android:name="com.telpo.tps550.api.demo.rfid.ConsumeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <!--<activity
+            android:name="com.telpo.tps550.api.demo.idcard.IdCardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>-->
+        <activity
+            android:name="com.telpo.tps550.api.demo.rfid.RfidActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.moneybox.MoneyBoxActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.rfid.UltralightActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.iccard.IccActivityNew"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.iccard.SLE4428Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.iccard.SLE4442Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.iccard.SmarCardNewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity 
+            android:name="com.telpo.tps550.api.demo.iccard.USBTypeACardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">          
+        </activity>
+        <activity 
+            android:name="com.telpo.tps550.api.demo.iccard.SerialPortActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">          
+        </activity>
+        <activity 
+            android:name="com.telpo.tps550.api.demo.iccard.SerialTACardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">          
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.iccard.PsamActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.ir.IrActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.led.LedActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.iccard.MonitorActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.iccard.AT88SC153Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.iccard.SelectActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity 
+            android:name="com.telpo.tps550.api.demo.decode.DecodeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">          
+        </activity>
+        <activity 
+            android:name="com.telpo.tps550.api.demo.nfc.NfcActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">
+        </activity>
+        <activity 
+            android:name="com.telpo.tps550.api.demo.rfid.CpuCardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">          
+        </activity>
+         <activity 
+            android:name="com.telpo.tps550.api.demo.nfc.NfcActivity_tps900"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">          
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.nfc.NfcActivity_tps537"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">
+        </activity>
+        <activity 
+            android:name="com.telpo.tps550.api.demo.idcard.BluetoothIdCardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">          
+        </activity>
+        <activity 
+            android:name="com.telpo.tps550.api.demo.hardreader.HardReaderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:launchMode="singleTask">          
+        </activity>
+    </application>
+
+</manifest>
